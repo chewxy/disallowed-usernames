@@ -1,18 +1,13 @@
-Disallowed Usernames
-====================
-<b>What?</b>
-
-An open source database of dis-allowed usernames for startups.
-
+# Disallowed Usernames
 The goal of this project is to create a universal database of disallowed usernames for web applications. 
+This repository contains a list of keywords that should be banned/disallowed to prevent users from registering with, on your software projects and apps to prevent impersonation and phishing on your platform.
 
-<b>Format:</b> CSV
+## Formats
+CSV
 
-</b>Why?</b>
-
-For example, you don't want someone to sign-up with the username titled 'support'.
-
-And depending on your set-up, they could probably generate something like:
+## Why
+For example, you don't want someone to sign-up with the username titled `support` or `administrator`.
+And depending on your setup, they could probably generate something like:
 
 http://example.com/support
 
@@ -20,12 +15,11 @@ or
 
 http://support.example.com
 
-and use this to send out emails impersonating as someone un-suspecting from your Startup. Now, that's are dangerous! And hence, the purpose of this list.
+and use this to send out emails impersonating as someone un-suspecting from your application.
 
-<b>How?</b>
+## How to use this
 
-You can also import this file directly from your database's GUI (like phpmyadmin).
+You can import this file directly from your database's GUI (like phpMyAdmin, Sequel Pro, HeidiSQL).
 
-This project is licensed under the <b><a href="https://github.com/dsignr/disallowed-usernames/blob/master/LICENSE">MIT License</a></b>
-
-Thank you.
+# License
+This project is licensed under the [MIT License](https://github.com/dsignr/disallowed-usernames/blob/master/LICENSE)
